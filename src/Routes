@@ -1,0 +1,24 @@
+        {/* <Header />s */}
+        {/* <Sidebar /> */}
+        {/* <Datagrid /> */}
+       {/* <BrowserRouter> */}
+      {/* <Navbar /> If actual page is Login/Register, do not display */}
+        {/* <div className="container"> */}
+          {/* <Routes> */}
+            {/* <Route path="/" element={[<Header />,<Sidebar/>,<Datagrid />]} /> */}
+            {/* <Route path='/medics' element={<Sidebar/>}/> */}
+            {/* <Route path="/records" element={[<Header/>,<Sidebar/>,<Datagrid/>]} /> */}
+            {/* <Route path="/test" element={<Datagrid />} /> */}
+            {/* <route path="/pharmacy" element={<DataGridPremiumDem/>}/> */}
+            {/* <Route path="/register" element={<Register />} /> */}
+
+          {/* </Routes> */}
+        {/* </div> */}
+      {/* <Footer /> */}
+      {/* </BrowserRouter> */} */}
+
+
+
+
+
+

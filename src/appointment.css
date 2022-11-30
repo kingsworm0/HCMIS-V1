@@ -1,0 +1,40 @@
+.Book_appointment{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.Book_appointment input{
+    width: 50%;
+    padding: 15px;
+    margin-top: 20px;
+    margin: 10px;
+    border:
+    solid black;
+    cursor: pointer;
+    font-weight: bold;
+    color:black;
+    transition: background-color 0.2s;
+}
+.Book_appointment textarea{
+        width: 100%;
+        padding: 15px;
+        margin-top: 20px;       
+        border: 0;
+        cursor: pointer;
+        font-weight: bold;
+        color: #ffffff;
+        transition: background-color 0.2s;
+}
+.Book_appointment button{
+    width: 50%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color:forestgreen;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.2s;
+}

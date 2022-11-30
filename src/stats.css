@@ -1,0 +1,111 @@
+.stats{
+    box-shadow: 5px 5px 5px 5px grey;
+    flex: 1;
+    padding: 10px;
+    background-color:rgb(243, 239, 239);
+    margin: 5px;
+    font-size: 14px;
+    justify-content: space-between;
+}
+.stats h1{
+    padding: 5px;
+    font-size: 20px;
+}
+.stats hr{
+    border: solid 1px black;
+}
+.stats table{
+    padding: 10px;
+    margin: 15px;
+    border: solid 1px black;
+    /* background-color: rgb(218, 215, 213); */
+    /* box-shadow: 5px 5px 5px 5px grey; */
+}
+.stats table tr th{
+    height: 30px;
+    border: solid 1px black;
+    padding: 15px;
+    width: 200px;
+    background-color: #303030;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+}
+.stats table tr td:hover{
+    background-color: white;
+}
+.stats .select{
+    width: 2px;
+}
+.stats td input{
+    border: solid black 1px;
+}
+.stats table td{
+    text-align: center;
+    border: solid black 0.1px;
+    padding: 10px;
+    margin: 10px;
+}
+.toolbar{
+    display: flex;
+}
+.addons{
+background-color:rgba(10, 131, 10, 0.829);
+border:black 2px;
+color: aliceblue;
+width:250px;
+font-weight: bold;
+align-items: center;
+padding: 5px;
+font-size: 14px;
+justify-content: center;
+text-align:center;
+display: flex;
+margin: 10px;
+border-radius: 15px;
+height:40px
+}
+.edit{
+    border:black 2px;
+    background-color: dodgerblue;
+    color: aliceblue;
+    width:250px;
+    font-weight: bold;
+    align-items: center;
+    padding: 5px;
+font-size: 14px;
+    justify-content: center;
+    border-radius: 15px;
+    text-align:center;
+    display: flex;
+    margin: 10px;
+    height:40px
+}
+.delete{
+    border:black 2px;
+    background-color: rgb(216, 23, 23);
+    color: aliceblue;
+    width:250px;
+font-size: 14px;
+    font-weight: bold;
+    border-radius: 15px;
+    align-items: center;
+    padding: 5px;
+    justify-content: center;
+    text-align:center;
+    display: flex;
+    margin: 10px;
+    height:40px
+}
+.toolbar span{
+    margin: 15px;
+}
+.delete :hover{
+    opacity: 80%;
+}
+.addons:hover{
+    opacity: 80%;
+}
+.edit:hover{
+    opacity: 80%;
+} 
